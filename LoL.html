@@ -1,0 +1,98 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+   #ds{
+    color: #ffffff;
+   }
+
+#LoL {
+  margin: 0;
+  padding: 50;
+  color: aliceblue;
+}
+
+body{
+        font-family: 'Edu VIC WA NT Beginner', 'cursive';
+        font-family: 'Playfair Display', serif;
+        background-image: src="picture\fire.jpg";
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color: rgb(0, 0, 0);
+        }
+
+
+.leftfoto{
+float:left;
+margin: 4px 10px 2px 0px;
+}
+
+    #oi{
+  height: 500px;
+  width: 500px;
+
+    }
+
+        #ai{
+            color:rgb(255, 255, 255);
+        }
+        .nav-wrapper {
+            border-style: solid;
+  border-color: #ffffff;
+  border-width: 2px;
+   width:100%;
+   background: rgb(0, 0, 0);
+}
+
+.nav-menu {
+   position:relative;
+   display:inline-block;
+}
+
+.nav-menu li {
+   display: inline;
+   list-style-type: none;
+}
+
+.sub-menu {
+   position:absolute;
+   display:none;
+   background: rgb(255, 0, 0);
+}
+.nav-menu > ul > li:after {
+   content: "25BC";
+   font-size: .5em;
+   display: inline;
+   position: relative;
+   }
+    </style>
+</head>
+<body>
+    <div class="nav-wrapper">
+        <nav class="nav-menu">
+           <ul class="clearfix">
+              <li><a href="" id="ai">Home</a></li>
+              <li><a href="" id="ai">Contributors</a>
+              </li>
+              <li><a href="" id="ai">Contact Us</a>
+              <ul class="sub-menu">
+                 <li><a href="">Report a Bug</a></li>
+                 <li><a href="">Customer Support</a></li>
+              </ul>
+              </li>
+           </ul>
+        </nav>
+     </div>
+     <h1 id="ds"><img id="oi" src="picture\kal.png" class="leftfoto">Сумка тканевая</h1>
+     <h2 id="ds">1000руб/шт</h2>
+     <p id="LoL">Наши сумки отменного качества! Они сдделаны из натуральных тканий и делались любовью! Они очень долго прослужатт вам
+        если хорошо ухаживать за ними! Удостовериться этому вы можете в отзывах, но раз пока что отзывов ннет, вы можете стать
+        первым нашим покупателем и рассказать всю правду о наших сумках!
+     </p>
+</body>
+</html>
